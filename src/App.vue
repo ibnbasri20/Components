@@ -1,20 +1,20 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <router-view/>
 </template>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+html,body{
+  height:100%;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
+  min-height:100%;
+  font-size:15px;
+  background: #f7fafc;
 }
 
 #nav {
